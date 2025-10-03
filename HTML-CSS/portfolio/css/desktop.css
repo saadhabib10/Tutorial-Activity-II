@@ -1,0 +1,9 @@
+body {
+  font-size: 18px;
+}
+
+main {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}

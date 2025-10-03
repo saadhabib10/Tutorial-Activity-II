@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- Character encoding set to UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes page responsive on different devices -->
+  <title>Contact Me</title> <!-- Title shown in the browser tab -->
+
+  <!-- Linking base and responsive CSS styles -->
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" media="(max-width:600px)" href="css/mobile.css">
+  <link rel="stylesheet" media="(min-width:601px) and (max-width:900px)" href="css/tablet.css">
+  <link rel="stylesheet" media="(min-width:901px)" href="css/desktop.css">
+</head>
+<body>
+  <!-- Header with page title and navigation menu -->
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <!-- Navigation links to all pages -->
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main content with contact form -->
+  <main>
+    <form>
+      <!-- Input field for name -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <!-- Input field for email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <!-- Input field for phone (10 digits only) -->
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="1234567890"><br><br>
+
+      <!-- Text area for comments -->
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" name="comments" rows="5" cols="30"></textarea><br><br>
+
+      <!-- Submit button -->
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <!-- Footer with contact info -->
+  <footer>
+    <p>&copy; 2025 Saad Habib | saad.habib@ontariotechu.net</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,54 @@
+/* General body styling */
+body {    
+  font-family: Arial, sans-serif;   /* Sets font */
+  margin: 0;                        /* Removes default margin */
+  padding: 0;                       /* Removes default padding */
+  line-height: 1.6;                 /* Improves readability */
+  background: linear-gradient(135deg, #3a9a36, #295a29); /* Green gradient background */
+}
+
+/* Header styling */
+header {
+  background: #40a11f;   /* Green background */
+  color: rgb(0, 0, 0);   /* Black text */
+  padding: 15px;         /* Space inside header */
+  text-align: center;    /* Centers text */
+}
+
+/* Navigation links */
+nav a {
+  color: rgb(0, 0, 0);   /* Black links */
+  margin: 0 15px;        /* Space between links */
+  text-decoration: none; /* Removes underline */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline when hovered */
+}
+
+/* Main content area */
+main {
+  padding: 20px; /* Space inside main */
+}
+
+/* Footer styling */
+footer {
+  background: #40a11f;   /* Green background */
+  color: rgb(0, 0, 0);   /* Black text */
+  text-align: center;    /* Centered text */
+  padding: 10px;         /* Space inside footer */
+}
+
+/* Image styling */
+img {
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Form elements */
+form input, form textarea, form button {
+  display: block;       /* Stacks vertically */
+  margin: 10px 0;       /* Space between fields */
+  padding: 8px;         /* Inside spacing */
+  width: 100%;          /* Full width */
+  max-width: 400px;     /* Restricts max size */
+}

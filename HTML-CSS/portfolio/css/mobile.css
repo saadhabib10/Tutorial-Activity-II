@@ -1,0 +1,10 @@
+/* General body styling */
+body {
+  font-size: 14px;
+}
+
+
+nav a {
+  display: block;   /* Makes each link take the full width, stacking vertically */
+  margin: 10px 0;   /* Adds vertical spacing (10px above and below each link) */
+}
