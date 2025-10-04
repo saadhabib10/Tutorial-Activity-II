@@ -1,7 +1,9 @@
+/* General body styling */
 body {
   font-size: 16px;
 }
 
+/* Main content area */
 main {
   padding: 30px;
 }
